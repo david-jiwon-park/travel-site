@@ -1,1 +1,95 @@
-/*# sourceMappingURL=main.css.map */
+@font-face {
+  font-family: "Verdana";
+  src: url("../../assets/fonts/Verdana.ttf") format("truetype"), url("../../assets/fonts/Verdana.ttf") format("woff"), url("../../assets/fonts/Verdana.ttf") format("woff2"), url("../../assets/fonts/Verdana-Bold.ttf") format("truetype"), url("../../assets/fonts/Verdana-Bold.ttf") format("woff"), url("../../assets/fonts/Verdana-Bold.ttf") format("woff2"), url("../../assets/fonts/Verdana-BoldItalic.ttf") format("truetype"), url("../../assets/fonts/Verdana-BoldItalic.ttf") format("woff"), url("../../assets/fonts/Verdana-BoldItalic.ttf") format("woff2"), url("../../assets/fonts/Verdana-Italic.ttf") format("truetype"), url("../../assets/fonts/Verdana-Italic.ttf") format("woff"), url("../../assets/fonts/Verdana-Italic.ttf") format("woff2");
+}
+@font-face {
+  font-family: "Verdana-Heavy";
+  src: url("../../assets/fonts/verdana-heavy.ttf") format("truetype"), url("../../assets/fonts/verdana-heavy-bold.ttf") format("truetype");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana;
+}
+
+/* Hero Banner Stlying */
+.hero {
+  background-color: #FEFAF5;
+  display: flex;
+  justify-content: space-between;
+  padding: 4% 6.75%;
+}
+.hero__left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+}
+.hero__heading {
+  font-family: "Verdana-Heavy";
+  font-size: 2.5rem;
+  color: #335576;
+}
+.hero__slogan {
+  font-size: 0.85rem;
+  color: #335576;
+  padding: 2rem 0;
+}
+.hero__button {
+  color: #FFF;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.625rem;
+  background-color: #DB7A4E;
+  width: 11.25rem;
+  border-radius: 1.25rem;
+}
+.hero__img {
+  height: 27rem;
+}
+
+/* Recommendations Section Styling */
+.recs {
+  background-color: #FFFFFF;
+  padding: 4% 6.75%;
+}
+.recs__header {
+  font-family: "Verdana-Heavy";
+  color: #335576;
+}
+.recs__card-container {
+  padding: 3% 6% 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.recs__text {
+  font-family: "Verdana-Heavy";
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1.4rem;
+}
+.recs__card {
+  background-position: center;
+  background-size: cover;
+  width: 20vw;
+  height: 50vh;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.313rem 0.563rem -0.063rem rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 1.5rem;
+}
+.recs__hawaii {
+  background-image: url("../../assets/images/hawaii.jpg");
+}
+.recs__iceland {
+  background-image: url("../../assets/images/iceland.jpg");
+}
+.recs__greece {
+  background-image: url("../../assets/images/greece.jpg");
+}/*# sourceMappingURL=main.css.map */

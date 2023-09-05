@@ -1,0 +1,42 @@
+/* Recommendations Section Styling */
+
+.recs {
+    background-color: #FFFFFF;
+    padding: 4% 6.75%;
+    &__header {
+        font-family: "Verdana-Heavy";
+        color: #335576;
+    }
+    &__card-container {
+        padding: 3% 6% 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    &__text {
+        font-family: "Verdana-Heavy";
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 1.4rem;
+    }
+    &__card {
+        background-position: center;
+        background-size: cover;
+        width: 20vw;
+        height: 50vh;
+        border-radius: 0.625rem;
+        box-shadow: 0 0.313rem 0.563rem -0.063rem  rgba(0, 0, 0, 0.25);
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 1.5rem;
+    }
+    &__hawaii {
+        background-image: url("../../assets/images/hawaii.jpg");
+    }
+    &__iceland {
+        background-image: url("../../assets/images/iceland.jpg");
+    }
+    &__greece {
+        background-image: url("../../assets/images/greece.jpg");
+    }
+}

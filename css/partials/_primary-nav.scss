@@ -1,0 +1,32 @@
+/* Primary Nav Stlying */
+
+.primary-nav {
+    background-color: #FFFFFF;
+    padding: 1.25% 6.75%;
+    display: flex;
+    justify-content: space-between;
+    &__wordmark {
+        font-family: "Verdana-Heavy";
+        text-decoration: none;
+        color: #335576;
+    }
+    &__list {
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+    &__list-item {
+        padding: 0 0.7rem;
+    }
+    &__link {
+        text-decoration: none;
+        color: black;
+        font-size: 0.9rem;
+        padding-bottom: 0.5rem;
+    }
+    &__underline {
+        border-bottom: 0.2rem solid #DB7A4E;
+        margin-top: 0.5rem;
+    }
+
+}

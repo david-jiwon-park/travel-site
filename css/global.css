@@ -1,1 +1,85 @@
-/*# sourceMappingURL=global.css.map */
+@font-face {
+  font-family: "Verdana";
+  src: url("../../assets/fonts/Verdana.ttf") format("truetype"), url("../../assets/fonts/Verdana.ttf") format("woff"), url("../../assets/fonts/Verdana.ttf") format("woff2"), url("../../assets/fonts/Verdana-Bold.ttf") format("truetype"), url("../../assets/fonts/Verdana-Bold.ttf") format("woff"), url("../../assets/fonts/Verdana-Bold.ttf") format("woff2"), url("../../assets/fonts/Verdana-BoldItalic.ttf") format("truetype"), url("../../assets/fonts/Verdana-BoldItalic.ttf") format("woff"), url("../../assets/fonts/Verdana-BoldItalic.ttf") format("woff2"), url("../../assets/fonts/Verdana-Italic.ttf") format("truetype"), url("../../assets/fonts/Verdana-Italic.ttf") format("woff"), url("../../assets/fonts/Verdana-Italic.ttf") format("woff2");
+}
+@font-face {
+  font-family: "Verdana-Heavy";
+  src: url("../../assets/fonts/verdana-heavy.ttf") format("truetype"), url("../../assets/fonts/verdana-heavy-bold.ttf") format("truetype");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana;
+}
+
+/* Primary Nav Stlying */
+.primary-nav {
+  background-color: #FFFFFF;
+  padding: 1.25% 6.75%;
+  display: flex;
+  justify-content: space-between;
+}
+.primary-nav__wordmark {
+  font-family: "Verdana-Heavy";
+  text-decoration: none;
+  color: #335576;
+}
+.primary-nav__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.primary-nav__list-item {
+  padding: 0 0.7rem;
+}
+.primary-nav__link {
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+  padding-bottom: 0.5rem;
+}
+.primary-nav__underline {
+  border-bottom: 0.2rem solid #DB7A4E;
+  margin-top: 0.5rem;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #FEFAF5;
+  padding: 4% 16%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__title {
+  font-family: "Verdana-Heavy";
+  color: #335576;
+}
+.footer__subtitle {
+  color: #DB7A4E;
+  padding: 2rem 0 1rem;
+}
+.footer__text {
+  color: #335576;
+}
+.footer__hours-container {
+  width: 45%;
+}
+.footer__hours {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__social-container {
+  width: 14%;
+}
+.footer__img-container {
+  padding-top: 3.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__img {
+  height: 1.5rem;
+}/*# sourceMappingURL=global.css.map */

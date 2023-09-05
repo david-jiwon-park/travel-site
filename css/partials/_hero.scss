@@ -1,0 +1,38 @@
+/* Hero Banner Stlying */
+
+.hero {
+    background-color: #FEFAF5;
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 6.75%;
+    &__left-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 45%;
+    }
+    &__heading {
+        font-family: "Verdana-Heavy";
+        font-size: 2.5rem;
+        color: #335576;
+    }
+    &__slogan {
+        font-size: 0.85rem;
+        color: #335576;
+        padding: 2rem 0; 
+    }
+    &__button {
+        color: #FFF;
+        text-decoration: none;
+        text-align: center;
+        padding: 0.625rem;
+        background-color: #DB7A4E;
+        width: 11.25rem;
+        border-radius: 1.25rem;
+    }
+
+    &__img {
+        height: 27rem;
+    }
+
+}

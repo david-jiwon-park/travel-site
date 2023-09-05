@@ -1,0 +1,37 @@
+/* Footer Styling */
+
+.footer {
+    background-color: #FEFAF5;
+    padding: 4% 16%;
+    display: flex;
+    justify-content: space-between;
+    &__title {
+        font-family: "Verdana-Heavy";
+        color: #335576;
+    }
+    &__subtitle {
+        color: #DB7A4E;
+        padding: 2rem 0 1rem;
+    }
+    &__text {
+        color: #335576;
+    }
+    &__hours-container {
+        width: 45%
+    }
+    &__hours {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__social-container {
+        width: 14%;
+    }
+    &__img-container {
+        padding-top: 3.25rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__img {
+        height: 1.5rem; 
+    }
+}
