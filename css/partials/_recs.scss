@@ -1,11 +1,11 @@
 /* Recommendations Section Styling */
 
 .recs {
-    background-color: #FFFFFF;
+    background-color: $white;
     padding: 4% 6.75%;
     &__header {
-        font-family: "Verdana-Heavy";
-        color: #335576;
+        font-family: $base-font-heavy;
+        color: $primary-blue;
     }
     &__card-container {
         padding: 3% 6% 0;
@@ -13,9 +13,9 @@
         justify-content: space-evenly;
     }
     &__text {
-        font-family: "Verdana-Heavy";
+        font-family: $base-font-heavy;
         text-decoration: none;
-        color: #FFFFFF;
+        color: $white;
         font-size: 1.4rem;
     }
     &__card {

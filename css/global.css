@@ -6,6 +6,8 @@
   font-family: "Verdana-Heavy";
   src: url("../../assets/fonts/verdana-heavy.ttf") format("truetype"), url("../../assets/fonts/verdana-heavy-bold.ttf") format("truetype");
 }
+/* Colors */
+/* Fonts */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,11 +15,13 @@
 }
 
 body {
-  font-family: Verdana;
+  font-family: "Verdana";
 }
 
 /* Primary Nav Stlying */
 .primary-nav {
+  position: fixed;
+  width: 100%;
   background-color: #FFFFFF;
   padding: 1.25% 6.75%;
   display: flex;
@@ -38,7 +42,7 @@ body {
 }
 .primary-nav__link {
   text-decoration: none;
-  color: black;
+  color: #000000;
   font-size: 0.9rem;
   padding-bottom: 0.5rem;
 }

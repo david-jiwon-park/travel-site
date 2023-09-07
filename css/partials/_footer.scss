@@ -1,20 +1,20 @@
 /* Footer Styling */
 
 .footer {
-    background-color: #FEFAF5;
+    background-color: $primary-background;
     padding: 4% 16%;
     display: flex;
     justify-content: space-between;
     &__title {
-        font-family: "Verdana-Heavy";
-        color: #335576;
+        font-family: $base-font-heavy;
+        color: $primary-blue;
     }
     &__subtitle {
-        color: #DB7A4E;
+        color: $primary-orange;
         padding: 2rem 0 1rem;
     }
     &__text {
-        color: #335576;
+        color: $primary-blue;
     }
     &__hours-container {
         width: 45%

@@ -1,6 +1,6 @@
-/* Stlying for the Main Section of Destination Pages */
+/* Stlying for Itinerary */
 
-.destinations {
+.itinerary {
     padding: 6% 6.75%;
     background-position: center;
     background-size: cover;
@@ -16,8 +16,8 @@
         background-image: url("../../assets/images/greece.jpg");
     }
     &__title {
-        font-family: "Verdana-Heavy";
-        color: #FFFFFF;
+        font-family: $base-font-heavy;
+        color: $white;
         font-size: 5rem;
     }
     &__card-container {
@@ -26,7 +26,7 @@
         justify-content: space-evenly;
     }
     &__card {
-        background-color: #FFFFFF;
+        background-color: $white;
         width: 20vw;
         height: 51vh;
         text-align: center;
@@ -34,17 +34,18 @@
         border-radius: 5px;
     }
     &__card-header {
-        font-family: 'Verdana-Heavy';
-        border-bottom: 0.2rem solid black;
+        font-family: $base-font-heavy;
+        border-bottom: 0.2rem solid $black;
         margin-bottom: 2rem;
     }
     &__card-activity {
-        background-color: #FEFAF5;
+        background-color: $primary-background;
         width: 100%;
         padding: 1.25rem;
         border-radius: 5px;
         margin-bottom: 1.25rem;
         font-size: 1.1rem;
+        list-style: none;
     }
 }
 

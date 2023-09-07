@@ -6,6 +6,8 @@
   font-family: "Verdana-Heavy";
   src: url("../../assets/fonts/verdana-heavy.ttf") format("truetype"), url("../../assets/fonts/verdana-heavy-bold.ttf") format("truetype");
 }
+/* Colors */
+/* Fonts */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,37 +15,37 @@
 }
 
 body {
-  font-family: Verdana;
+  font-family: "Verdana";
 }
 
-/* Stlying for the Main Section of Destination Pages */
-.destinations {
+/* Stlying for Itinerary */
+.itinerary {
   padding: 6% 6.75%;
   background-position: center;
   background-size: cover;
   width: 100vw;
   height: 100vh;
 }
-.destinations__hawaii {
+.itinerary__hawaii {
   background-image: url("../../assets/images/hawaii.jpg");
 }
-.destinations__iceland {
+.itinerary__iceland {
   background-image: url("../../assets/images/iceland.jpg");
 }
-.destinations__greece {
+.itinerary__greece {
   background-image: url("../../assets/images/greece.jpg");
 }
-.destinations__title {
+.itinerary__title {
   font-family: "Verdana-Heavy";
   color: #FFFFFF;
   font-size: 5rem;
 }
-.destinations__card-container {
+.itinerary__card-container {
   padding: 5% 9% 0;
   display: flex;
   justify-content: space-evenly;
 }
-.destinations__card {
+.itinerary__card {
   background-color: #FFFFFF;
   width: 20vw;
   height: 51vh;
@@ -51,16 +53,17 @@ body {
   padding: 1.25rem;
   border-radius: 5px;
 }
-.destinations__card-header {
+.itinerary__card-header {
   font-family: "Verdana-Heavy";
-  border-bottom: 0.2rem solid black;
+  border-bottom: 0.2rem solid #000000;
   margin-bottom: 2rem;
 }
-.destinations__card-activity {
+.itinerary__card-activity {
   background-color: #FEFAF5;
   width: 100%;
   padding: 1.25rem;
   border-radius: 5px;
   margin-bottom: 1.25rem;
   font-size: 1.1rem;
+  list-style: none;
 }/*# sourceMappingURL=destinations.css.map */

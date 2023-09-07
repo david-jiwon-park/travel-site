@@ -1,14 +1,16 @@
 /* Primary Nav Stlying */
 
 .primary-nav {
-    background-color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    background-color: $white;
     padding: 1.25% 6.75%;
     display: flex;
     justify-content: space-between;
     &__wordmark {
-        font-family: "Verdana-Heavy";
+        font-family: $base-font-heavy;
         text-decoration: none;
-        color: #335576;
+        color: $primary-blue;
     }
     &__list {
         display: flex;
@@ -20,12 +22,12 @@
     }
     &__link {
         text-decoration: none;
-        color: black;
+        color: $black;
         font-size: 0.9rem;
         padding-bottom: 0.5rem;
     }
     &__underline {
-        border-bottom: 0.2rem solid #DB7A4E;
+        border-bottom: 0.2rem solid $primary-orange;
         margin-top: 0.5rem;
     }
 

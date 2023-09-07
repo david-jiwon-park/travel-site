@@ -6,6 +6,8 @@
   font-family: "Verdana-Heavy";
   src: url("../../assets/fonts/verdana-heavy.ttf") format("truetype"), url("../../assets/fonts/verdana-heavy-bold.ttf") format("truetype");
 }
+/* Colors */
+/* Fonts */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,7 +15,7 @@
 }
 
 body {
-  font-family: Verdana;
+  font-family: "Verdana";
 }
 
 /* Hero Banner Stlying */
@@ -40,7 +42,7 @@ body {
   padding: 2rem 0;
 }
 .hero__button {
-  color: #FFF;
+  color: #FFFFFF;
   text-decoration: none;
   text-align: center;
   padding: 0.625rem;
