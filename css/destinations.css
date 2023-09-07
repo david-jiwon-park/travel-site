@@ -1,1 +1,66 @@
-/*# sourceMappingURL=destinations.css.map */
+@font-face {
+  font-family: "Verdana";
+  src: url("../../assets/fonts/Verdana.ttf") format("truetype"), url("../../assets/fonts/Verdana.ttf") format("woff"), url("../../assets/fonts/Verdana.ttf") format("woff2"), url("../../assets/fonts/Verdana-Bold.ttf") format("truetype"), url("../../assets/fonts/Verdana-Bold.ttf") format("woff"), url("../../assets/fonts/Verdana-Bold.ttf") format("woff2"), url("../../assets/fonts/Verdana-BoldItalic.ttf") format("truetype"), url("../../assets/fonts/Verdana-BoldItalic.ttf") format("woff"), url("../../assets/fonts/Verdana-BoldItalic.ttf") format("woff2"), url("../../assets/fonts/Verdana-Italic.ttf") format("truetype"), url("../../assets/fonts/Verdana-Italic.ttf") format("woff"), url("../../assets/fonts/Verdana-Italic.ttf") format("woff2");
+}
+@font-face {
+  font-family: "Verdana-Heavy";
+  src: url("../../assets/fonts/verdana-heavy.ttf") format("truetype"), url("../../assets/fonts/verdana-heavy-bold.ttf") format("truetype");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana;
+}
+
+/* Stlying for the Main Section of Destination Pages */
+.destinations {
+  padding: 6% 6.75%;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.destinations__hawaii {
+  background-image: url("../../assets/images/hawaii.jpg");
+}
+.destinations__iceland {
+  background-image: url("../../assets/images/iceland.jpg");
+}
+.destinations__greece {
+  background-image: url("../../assets/images/greece.jpg");
+}
+.destinations__title {
+  font-family: "Verdana-Heavy";
+  color: #FFFFFF;
+  font-size: 5rem;
+}
+.destinations__card-container {
+  padding: 5% 9% 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.destinations__card {
+  background-color: #FFFFFF;
+  width: 20vw;
+  height: 51vh;
+  text-align: center;
+  padding: 1.25rem;
+  border-radius: 5px;
+}
+.destinations__card-header {
+  font-family: "Verdana-Heavy";
+  border-bottom: 0.2rem solid black;
+  margin-bottom: 2rem;
+}
+.destinations__card-activity {
+  background-color: #FEFAF5;
+  width: 100%;
+  padding: 1.25rem;
+  border-radius: 5px;
+  margin-bottom: 1.25rem;
+  font-size: 1.1rem;
+}/*# sourceMappingURL=destinations.css.map */

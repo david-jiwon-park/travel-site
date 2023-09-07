@@ -1,0 +1,50 @@
+/* Stlying for the Main Section of Destination Pages */
+
+.destinations {
+    padding: 6% 6.75%;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    &__hawaii {
+        background-image: url("../../assets/images/hawaii.jpg");
+    }    
+    &__iceland {
+        background-image: url("../../assets/images/iceland.jpg");
+    }
+    &__greece {
+        background-image: url("../../assets/images/greece.jpg");
+    }
+    &__title {
+        font-family: "Verdana-Heavy";
+        color: #FFFFFF;
+        font-size: 5rem;
+    }
+    &__card-container {
+        padding: 5% 9% 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    &__card {
+        background-color: #FFFFFF;
+        width: 20vw;
+        height: 51vh;
+        text-align: center;
+        padding: 1.25rem;
+        border-radius: 5px;
+    }
+    &__card-header {
+        font-family: 'Verdana-Heavy';
+        border-bottom: 0.2rem solid black;
+        margin-bottom: 2rem;
+    }
+    &__card-activity {
+        background-color: #FEFAF5;
+        width: 100%;
+        padding: 1.25rem;
+        border-radius: 5px;
+        margin-bottom: 1.25rem;
+        font-size: 1.1rem;
+    }
+}
+
