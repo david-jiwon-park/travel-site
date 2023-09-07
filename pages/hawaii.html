@@ -4,15 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Site - Hawaii</title>
-    <link rel="stylesheet" type="text/css" href="./css/global.css">
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/destinations.css">
 </head>
 
 <body>
+    
+    <!--Primary Navigation-->
+    <header>
+        <nav class="primary-nav">
+            <a class="primary-nav__wordmark" href="../index.html">
+                <h3>Travel Site</h3>
+            </a>
+            <ul class="primary-nav__list">
+                <li class="primary-nav__list-item">
+                    <a class="primary-nav__link" href="../index.html">Home</a>
+                </li>
+                <li class="primary-nav__list-item">
+                    <a class="primary-nav__link primary-nav__underline" href="hawaii.html">Hawaii</a>
+                </li>
+                <li class="primary-nav__list-item">
+                    <a class="primary-nav__link" href="./iceland.html">Iceland</a>
+                </li>
+                <li class="primary-nav__list-item">
+                    <a class="primary-nav__link" href="./greece.html">Greece</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
+    <main class="destinations destinations__hawaii">
+        <h1 class="destinations__title">Hawaii</h1>
+        <div class="destinations__card-container">
+            <article class="destinations__card">
+                <h3 class="destinations__card-header">Friday</h4>
+                <p class="destinations__card-activity">Breakfast</p>
+                <p class="destinations__card-activity">Lunch</p>
+                <p class="destinations__card-activity">Dinner</p>
+                <p class="destinations__card-activity">Snorkeling</p>
+            </article>
+            <article class="destinations__card">
+                <h3 class="destinations__card-header">Saturday</h4>
+                    <p class="destinations__card-activity">Breakfast</p>
+                    <p class="destinations__card-activity">Lunch</p>
+                    <p class="destinations__card-activity">Dinner</p>
+                    <p class="destinations__card-activity">Snorkeling</p>
+            </article>
+            <article class="destinations__card">
+                <h3 class="destinations__card-header">Sunday</h4>
+                    <p class="destinations__card-activity">Breakfast</p>
+                    <p class="destinations__card-activity">Lunch</p>
+                    <p class="destinations__card-activity">Dinner</p>
+                    <p class="destinations__card-activity">Snorkeling</p>
+            </article>
+        </div>
+    </main>
 
+    <!--Footer-->
+    <footer class="footer">
+        <div>
+            <h2 class="footer__title">Contact</h2>
+            <h6 class="footer__subtitle">EMAIL</h6>
+            <p class="footer__text">info@travelsite.com</p>
+        </div>
+        
+        <div class="footer__hours-container">
+            <h2 class="footer__title">Hours</h2>
+            <div class="footer__hours">
+                <div>
+                    <h6 class="footer__subtitle">MONDAY - FRIDAY</h6>
+                    <p class="footer__text">9:00 AM - 5:00 PM</p>
+                </div>
+                <div>
+                    <h6 class="footer__subtitle">SATURDAY</h6>
+                    <p class="footer__text">10:00 AM - 4:00 PM</p>
+                </div>
+                <div>
+                    <h6 class="footer__subtitle">SUNDAY</h6>
+                    <p class="footer__text">Closed</p>
+                </div>
+            </div>
+        </div>
 
-
-
+        <div class="footer__social-container">
+            <h2 class="footer__title">Social</h2>
+            <div class="footer__img-container">
+                <a href="https://instagram.com" target="_blank"><img class="footer__img" src="../assets/images/icon-instagram.png" alt="instagram icon"></a>
+                <a href="https://facebook.com" target="_blank"><img class="footer__img" src="../assets/images/icon-facebook.png" alt="facebook icon"></a>
+                <a href="https://twitter.com" target="_blank"><img class="footer__img" src="../assets/images/icon-twitter.png" alt="twitter icon"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
