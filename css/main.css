@@ -87,6 +87,9 @@ body {
   align-items: flex-end;
   padding: 1.5rem;
 }
+.recs__card:hover {
+  opacity: 50%;
+}
 .recs__hawaii {
   background-image: url("../../assets/images/hawaii.jpg");
 }

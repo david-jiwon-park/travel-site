@@ -25,6 +25,10 @@
         color: $black;
         font-size: 0.9rem;
         padding-bottom: 0.5rem;
+        &:hover {
+            border-bottom: 0.2rem solid $primary-orange;
+            margin-top: 0.5rem;
+        }
     }
     &__underline {
         border-bottom: 0.2rem solid $primary-orange;

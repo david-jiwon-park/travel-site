@@ -46,6 +46,10 @@ body {
   font-size: 0.9rem;
   padding-bottom: 0.5rem;
 }
+.primary-nav__link:hover {
+  border-bottom: 0.2rem solid #DB7A4E;
+  margin-top: 0.5rem;
+}
 .primary-nav__underline {
   border-bottom: 0.2rem solid #DB7A4E;
   margin-top: 0.5rem;
