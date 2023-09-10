@@ -1,3 +1,5 @@
+/* Styling for Destination Pages */
+/* Fonts */
 @font-face {
   font-family: "Verdana";
   src: url("../../assets/fonts/Verdana.ttf") format("truetype"), url("../../assets/fonts/Verdana.ttf") format("woff"), url("../../assets/fonts/Verdana.ttf") format("woff2"), url("../../assets/fonts/Verdana-Bold.ttf") format("truetype"), url("../../assets/fonts/Verdana-Bold.ttf") format("woff"), url("../../assets/fonts/Verdana-Bold.ttf") format("woff2"), url("../../assets/fonts/Verdana-BoldItalic.ttf") format("truetype"), url("../../assets/fonts/Verdana-BoldItalic.ttf") format("woff"), url("../../assets/fonts/Verdana-BoldItalic.ttf") format("woff2"), url("../../assets/fonts/Verdana-Italic.ttf") format("truetype"), url("../../assets/fonts/Verdana-Italic.ttf") format("woff"), url("../../assets/fonts/Verdana-Italic.ttf") format("woff2");
@@ -6,8 +8,10 @@
   font-family: "Verdana-Heavy";
   src: url("../../assets/fonts/verdana-heavy.ttf") format("truetype"), url("../../assets/fonts/verdana-heavy-bold.ttf") format("truetype");
 }
+/* Variables */
 /* Colors */
 /* Fonts */
+/* General Styling across entire Travel Site */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -18,9 +22,9 @@ body {
   font-family: "Verdana";
 }
 
-/* Stlying for Itinerary */
+/* Itinerary Styling */
 .itinerary {
-  padding: 6% 6.75%;
+  padding: 0 6% 0;
   background-position: center;
   background-size: cover;
   width: 100vw;
@@ -39,31 +43,31 @@ body {
   font-family: "Verdana-Heavy";
   color: #FFFFFF;
   font-size: 5rem;
+  padding: 10% 0 6%;
 }
 .itinerary__card-container {
-  padding: 5% 9% 0;
+  padding: 0 10% 0;
   display: flex;
   justify-content: space-evenly;
 }
 .itinerary__card {
   background-color: #FFFFFF;
   width: 20vw;
-  height: 51vh;
+  height: 46vh;
   text-align: center;
   padding: 1.25rem;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
 }
 .itinerary__card-header {
   font-family: "Verdana-Heavy";
   border-bottom: 0.2rem solid #000000;
-  margin-bottom: 2rem;
+  margin-bottom: 1.75rem;
 }
 .itinerary__card-activity {
   background-color: #FEFAF5;
   width: 100%;
-  padding: 1.25rem;
-  border-radius: 5px;
-  margin-bottom: 1.25rem;
-  font-size: 1.1rem;
+  padding: 1rem;
+  border-radius: 0.3125rem;
+  margin-bottom: 0.9rem;
   list-style: none;
 }/*# sourceMappingURL=destinations.css.map */

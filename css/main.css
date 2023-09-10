@@ -1,3 +1,5 @@
+/* Styling for Home Page */
+/* Fonts */
 @font-face {
   font-family: "Verdana";
   src: url("../../assets/fonts/Verdana.ttf") format("truetype"), url("../../assets/fonts/Verdana.ttf") format("woff"), url("../../assets/fonts/Verdana.ttf") format("woff2"), url("../../assets/fonts/Verdana-Bold.ttf") format("truetype"), url("../../assets/fonts/Verdana-Bold.ttf") format("woff"), url("../../assets/fonts/Verdana-Bold.ttf") format("woff2"), url("../../assets/fonts/Verdana-BoldItalic.ttf") format("truetype"), url("../../assets/fonts/Verdana-BoldItalic.ttf") format("woff"), url("../../assets/fonts/Verdana-BoldItalic.ttf") format("woff2"), url("../../assets/fonts/Verdana-Italic.ttf") format("truetype"), url("../../assets/fonts/Verdana-Italic.ttf") format("woff"), url("../../assets/fonts/Verdana-Italic.ttf") format("woff2");
@@ -6,8 +8,10 @@
   font-family: "Verdana-Heavy";
   src: url("../../assets/fonts/verdana-heavy.ttf") format("truetype"), url("../../assets/fonts/verdana-heavy-bold.ttf") format("truetype");
 }
+/* Variables */
 /* Colors */
 /* Fonts */
+/* General Styling across entire Travel Site */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -23,17 +27,17 @@ body {
   background-color: #FEFAF5;
   display: flex;
   justify-content: space-between;
-  padding: 4% 6.75%;
+  padding: 8% 6% 6%;
 }
 .hero__left-side {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 45%;
+  width: 46%;
 }
 .hero__heading {
   font-family: "Verdana-Heavy";
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   color: #335576;
 }
 .hero__slogan {
@@ -51,20 +55,20 @@ body {
   border-radius: 1.25rem;
 }
 .hero__img {
-  height: 27rem;
+  height: 25rem;
 }
 
 /* Recommendations Section Styling */
 .recs {
   background-color: #FFFFFF;
-  padding: 4% 6.75%;
+  padding: 4% 6% 7%;
 }
 .recs__header {
   font-family: "Verdana-Heavy";
   color: #335576;
 }
 .recs__card-container {
-  padding: 3% 6% 0;
+  padding: 3% 8% 0;
   display: flex;
   justify-content: space-evenly;
 }
@@ -78,14 +82,14 @@ body {
   background-position: center;
   background-size: cover;
   width: 20vw;
-  height: 50vh;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  height: 45vh;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3125rem;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 .recs__card:hover {
   opacity: 50%;

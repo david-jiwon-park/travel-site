@@ -1,7 +1,7 @@
-/* Stlying for Itinerary */
+/* Itinerary Styling */
 
 .itinerary {
-    padding: 6% 6.75%;
+    padding: 0 6% 0;
     background-position: center;
     background-size: cover;
     width: 100vw;
@@ -19,32 +19,32 @@
         font-family: $base-font-heavy;
         color: $white;
         font-size: 5rem;
+        padding: 10% 0 6%;
     }
     &__card-container {
-        padding: 5% 9% 0;
+        padding: 0 10% 0;
         display: flex;
         justify-content: space-evenly;
     }
     &__card {
         background-color: $white;
         width: 20vw;
-        height: 51vh;
+        height: 46vh;
         text-align: center;
         padding: 1.25rem;
-        border-radius: 5px;
+        border-radius: 0.3125rem;
     }
     &__card-header {
         font-family: $base-font-heavy;
         border-bottom: 0.2rem solid $black;
-        margin-bottom: 2rem;
+        margin-bottom: 1.75rem;
     }
     &__card-activity {
         background-color: $primary-background;
         width: 100%;
-        padding: 1.25rem;
-        border-radius: 5px;
-        margin-bottom: 1.25rem;
-        font-size: 1.1rem;
+        padding: 1rem;
+        border-radius: 0.3125rem;
+        margin-bottom: 0.9rem;
         list-style: none;
     }
 }

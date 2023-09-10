@@ -1,3 +1,5 @@
+/* Styling for All Pages */
+/* Fonts */
 @font-face {
   font-family: "Verdana";
   src: url("../../assets/fonts/Verdana.ttf") format("truetype"), url("../../assets/fonts/Verdana.ttf") format("woff"), url("../../assets/fonts/Verdana.ttf") format("woff2"), url("../../assets/fonts/Verdana-Bold.ttf") format("truetype"), url("../../assets/fonts/Verdana-Bold.ttf") format("woff"), url("../../assets/fonts/Verdana-Bold.ttf") format("woff2"), url("../../assets/fonts/Verdana-BoldItalic.ttf") format("truetype"), url("../../assets/fonts/Verdana-BoldItalic.ttf") format("woff"), url("../../assets/fonts/Verdana-BoldItalic.ttf") format("woff2"), url("../../assets/fonts/Verdana-Italic.ttf") format("truetype"), url("../../assets/fonts/Verdana-Italic.ttf") format("woff"), url("../../assets/fonts/Verdana-Italic.ttf") format("woff2");
@@ -6,8 +8,10 @@
   font-family: "Verdana-Heavy";
   src: url("../../assets/fonts/verdana-heavy.ttf") format("truetype"), url("../../assets/fonts/verdana-heavy-bold.ttf") format("truetype");
 }
+/* Variables */
 /* Colors */
 /* Fonts */
+/* General Styling across entire Travel Site */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -18,12 +22,12 @@ body {
   font-family: "Verdana";
 }
 
-/* Primary Nav Stlying */
+/* Primary Navigation Stlying */
 .primary-nav {
   position: fixed;
   width: 100%;
   background-color: #FFFFFF;
-  padding: 1.25% 6.75%;
+  padding: 1.25% 6%;
   display: flex;
   justify-content: space-between;
 }
@@ -58,7 +62,7 @@ body {
 /* Footer Styling */
 .footer {
   background-color: #FEFAF5;
-  padding: 4% 16%;
+  padding: 4% 17%;
   display: flex;
   justify-content: space-between;
 }
@@ -72,16 +76,17 @@ body {
 }
 .footer__text {
   color: #335576;
+  font-size: 0.9rem;
 }
 .footer__hours-container {
-  width: 45%;
+  width: 46%;
 }
 .footer__hours {
   display: flex;
   justify-content: space-between;
 }
 .footer__social-container {
-  width: 14%;
+  width: 15%;
 }
 .footer__img-container {
   padding-top: 3.25rem;
@@ -89,5 +94,5 @@ body {
   justify-content: space-between;
 }
 .footer__img {
-  height: 1.5rem;
+  height: 1.4rem;
 }/*# sourceMappingURL=global.css.map */
