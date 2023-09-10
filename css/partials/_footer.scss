@@ -1,20 +1,20 @@
 /* Footer Styling */
 
 .footer {
-    background-color: $primary-background;
+    background-color: $color-background;
     padding: 4% 17%;
     display: flex;
     justify-content: space-between;
     &__title {
         font-family: $base-font-heavy;
-        color: $primary-blue;
+        color: $color-text-primary;
     }
     &__subtitle {
-        color: $primary-orange;
+        color: $color-secondary;
         padding: 2rem 0 1rem;
     }
     &__text {
-        color: $primary-blue;
+        color: $color-text-primary;
         font-size: 0.9rem;
     }
     &__hours-container {

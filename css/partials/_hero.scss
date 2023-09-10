@@ -1,7 +1,7 @@
 /* Hero Banner Stlying */
 
 .hero {
-    background-color: $primary-background;
+    background-color: $color-background;
     display: flex;
     justify-content: space-between;
     padding: 8% 6% 6%;
@@ -14,11 +14,11 @@
     &__heading {
         font-family: $base-font-heavy;
         font-size: 2.2rem;
-        color: $primary-blue;
+        color: $color-text-primary;
     }
     &__slogan {
         font-size: 0.85rem;
-        color: $primary-blue;
+        color: $color-text-primary;
         padding: 2rem 0; 
     }
     &__button {
@@ -26,7 +26,7 @@
         text-decoration: none;
         text-align: center;
         padding: 0.625rem;
-        background-color: $primary-orange;
+        background-color: $color-secondary;
         width: 11.25rem;
         border-radius: 20px;
     }
