@@ -32,7 +32,7 @@
         height: 46vh;
         text-align: center;
         padding: 1.25rem;
-        border-radius: 0.3125rem;
+        border-radius: 5px;
     }
     &__card-header {
         font-family: $base-font-heavy;
@@ -43,7 +43,7 @@
         background-color: $primary-background;
         width: 100%;
         padding: 1rem;
-        border-radius: 0.3125rem;
+        border-radius: 5px;
         margin-bottom: 0.9rem;
         list-style: none;
     }
