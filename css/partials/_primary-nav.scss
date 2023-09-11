@@ -5,8 +5,7 @@
     width: 100%;
     background-color: $white;
     padding: 1.25% 6%;
-    display: flex;
-    justify-content: space-between;
+    @include flex-space-between;
     &__wordmark {
         font-family: $base-font-heavy;
         text-decoration: none;
@@ -26,13 +25,11 @@
         font-size: 0.9rem;
         padding-bottom: 0.5rem;
         &:hover {
-            border-bottom: 0.2rem solid $color-secondary;
-            margin-top: 0.5rem;
+            @include nav-link-underline;
         }
     }
     &__underline {
-        border-bottom: 0.2rem solid $color-secondary;
-        margin-top: 0.5rem;
+        @include nav-link-underline;
     }
 
 }

@@ -2,8 +2,7 @@
 
 .hero {
     background-color: $color-background;
-    display: flex;
-    justify-content: space-between;
+    @include flex-space-between;
     padding: 8% 6% 6%;
     &__left-side {
         display: flex;

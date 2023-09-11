@@ -1,0 +1,21 @@
+/* Mixins */
+
+@mixin flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin flex-space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@mixin background-position-size {
+    background-position: center;
+    background-size: cover;
+}
+
+@mixin nav-link-underline {
+    border-bottom: 0.2rem solid $color-secondary;
+    margin-top: 0.5rem;
+}

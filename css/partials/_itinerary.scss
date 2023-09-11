@@ -2,8 +2,7 @@
 
 .itinerary {
     padding: 0 6% 0;
-    background-position: center;
-    background-size: cover;
+    @include background-position-size;
     width: 100vw;
     height: 100vh;
     &__hawaii {
@@ -23,13 +22,12 @@
     }
     &__card-container {
         padding: 0 10% 0;
-        display: flex;
-        justify-content: space-evenly;
+        @include flex-space-evenly;
     }
     &__card {
         background-color: $white;
         width: 20vw;
-        height: 46vh;
+        height: 24rem;
         text-align: center;
         padding: 1.25rem;
         border-radius: 5px;

@@ -22,6 +22,7 @@ body {
   font-family: "Verdana";
 }
 
+/* Mixins */
 /* Hero Banner Stlying */
 .hero {
   background-color: #FEFAF5;
@@ -52,7 +53,7 @@ body {
   padding: 0.625rem;
   background-color: #DB7A4E;
   width: 11.25rem;
-  border-radius: 1.25rem;
+  border-radius: 20px;
 }
 .hero__img {
   height: 25rem;
@@ -82,10 +83,10 @@ body {
   background-position: center;
   background-size: cover;
   width: 20vw;
-  height: 45vh;
-  border: 0.0625rem solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3125rem;
-  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
+  height: 24rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;

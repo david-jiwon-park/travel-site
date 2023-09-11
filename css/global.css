@@ -22,6 +22,7 @@ body {
   font-family: "Verdana";
 }
 
+/* Mixins */
 /* Primary Navigation Stlying */
 .primary-nav {
   position: fixed;

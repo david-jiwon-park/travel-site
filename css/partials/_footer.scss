@@ -3,8 +3,7 @@
 .footer {
     background-color: $color-background;
     padding: 4% 17%;
-    display: flex;
-    justify-content: space-between;
+    @include flex-space-between;
     &__title {
         font-family: $base-font-heavy;
         color: $color-text-primary;
@@ -21,16 +20,14 @@
         width: 46%;
     }
     &__hours {
-        display: flex;
-        justify-content: space-between;
+        @include flex-space-between;
     }
     &__social-container {
         width: 15%;
     }
     &__img-container {
         padding-top: 3.25rem;
-        display: flex;
-        justify-content: space-between;
+        @include flex-space-between;
     }
     &__img {
         height: 1.4rem; 

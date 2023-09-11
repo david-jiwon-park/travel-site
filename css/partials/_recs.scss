@@ -9,8 +9,7 @@
     }
     &__card-container {
         padding: 3% 8% 0;
-        display: flex;
-        justify-content: space-evenly;
+        @include flex-space-evenly;
     }
     &__text {
         font-family: $base-font-heavy;
@@ -19,10 +18,9 @@
         font-size: 1.4rem;
     }
     &__card {
-        background-position: center;
-        background-size: cover;
+        @include background-position-size;
         width: 20vw;
-        height: 45vh;
+        height: 24rem;
         border: 1px solid rgba(0, 0, 0, 0.20);
         border-radius: 5px;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.20);
