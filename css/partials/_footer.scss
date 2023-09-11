@@ -2,7 +2,7 @@
 
 .footer {
     background-color: $color-background;
-    padding: 4% 17%;
+    padding: 3.5rem 17%;
     @include flex-space-between;
     &__title {
         font-family: $base-font-heavy;

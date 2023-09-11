@@ -1,7 +1,10 @@
 /* Itinerary Styling */
 
 .itinerary {
-    padding: 0 6% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5rem 10rem;
     @include background-position-size;
     width: 100vw;
     height: 100vh;
@@ -18,7 +21,7 @@
         font-family: $base-font-heavy;
         color: $white;
         font-size: 5rem;
-        padding: 10% 0 6%;
+        padding-bottom: 4rem;
     }
     &__card-container {
         padding: 0 10% 0;

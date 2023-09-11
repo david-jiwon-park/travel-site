@@ -3,7 +3,7 @@
 .hero {
     background-color: $color-background;
     @include flex-space-between;
-    padding: 8% 6% 6%;
+    padding: 4rem 5rem;
     &__left-side {
         display: flex;
         flex-direction: column;
@@ -18,7 +18,7 @@
     &__slogan {
         font-size: 0.85rem;
         color: $color-text-primary;
-        padding: 2rem 0; 
+        padding: 2.5rem 0; 
     }
     &__button {
         color: $white;
@@ -30,6 +30,6 @@
         border-radius: 20px;
     }
     &__img {
-        height: 25rem;
+        height: 23rem;
     }
 }

@@ -1,10 +1,14 @@
 /* Primary Navigation Stlying */
 
+header {
+    position: sticky;
+    top: 0;
+}
+
 .primary-nav {
-    position: fixed;
     width: 100%;
     background-color: $white;
-    padding: 1.25% 6%;
+    padding: 1.25rem 5rem;
     @include flex-space-between;
     &__wordmark {
         font-family: $base-font-heavy;
@@ -17,7 +21,7 @@
         list-style: none;
     }
     &__list-item {
-        padding: 0 0.7rem;
+        padding: 0 0.75rem;
     }
     &__link {
         text-decoration: none;

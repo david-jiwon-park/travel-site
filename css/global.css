@@ -24,11 +24,15 @@ body {
 
 /* Mixins */
 /* Primary Navigation Stlying */
+header {
+  position: sticky;
+  top: 0;
+}
+
 .primary-nav {
-  position: fixed;
   width: 100%;
   background-color: #FFFFFF;
-  padding: 1.25% 6%;
+  padding: 1.25rem 5rem;
   display: flex;
   justify-content: space-between;
 }
@@ -43,7 +47,7 @@ body {
   list-style: none;
 }
 .primary-nav__list-item {
-  padding: 0 0.7rem;
+  padding: 0 0.75rem;
 }
 .primary-nav__link {
   text-decoration: none;
@@ -63,7 +67,7 @@ body {
 /* Footer Styling */
 .footer {
   background-color: #FEFAF5;
-  padding: 4% 17%;
+  padding: 3.5rem 17%;
   display: flex;
   justify-content: space-between;
 }

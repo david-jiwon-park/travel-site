@@ -25,7 +25,10 @@ body {
 /* Mixins */
 /* Itinerary Styling */
 .itinerary {
-  padding: 0 6% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 5rem 10rem;
   background-position: center;
   background-size: cover;
   width: 100vw;
@@ -44,7 +47,7 @@ body {
   font-family: "Verdana-Heavy";
   color: #FFFFFF;
   font-size: 5rem;
-  padding: 10% 0 6%;
+  padding-bottom: 4rem;
 }
 .itinerary__card-container {
   padding: 0 10% 0;
